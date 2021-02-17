@@ -275,7 +275,7 @@ var BirdCount = BirdCount || (function () {
                 if (rectangleInfo) {
                     rectangleInfo.setValue('clusterName', row.A);
                     rectangleInfo.setValue('owner', row.F);
-                    rectangleInfo.setValue('site', row.C);
+                    rectangleInfo.setValue('site', row.D);
                 }
             }, this);
         },

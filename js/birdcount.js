@@ -99,13 +99,13 @@ const BirdCount = (function () {
 
             switch (this.getValue('status')) {
                 case '1':
-                    return '#B0B0B0';
+                    return '#EEEEEE';
                 case '2':
-                    return '#808080';
+                    return '#295BA7';
                 case '3':
-                    return '#505050';
+                    return '#FCC314';
                 case '4':
-                    return '#202020';
+                    return '#03C988';
                 default:
                     return '#FF8040';
             }

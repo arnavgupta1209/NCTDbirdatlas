@@ -268,8 +268,8 @@ const BirdCount = (function () {
                 const rectangleInfo = this.rectangleInfos[row[0]];
                 if (rectangleInfo) {
                     rectangleInfo.setValue('clusterName', row[1]);
-                    rectangleInfo.setValue('owner', row[5]);
-                    rectangleInfo.setValue('site', row[2]);
+                    rectangleInfo.setValue('owner', row[2]);
+                    rectangleInfo.setValue('site', row[3]);
                 }
             }, this);
         },

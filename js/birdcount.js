@@ -99,7 +99,7 @@ const BirdCount = (function () {
 
             switch (this.getValue('status')) {
                 case '1':
-                    return '#EEEEEE';
+                    return '#d9d9d9';
                 case '2':
                     return '#295BA7';
                 case '3':

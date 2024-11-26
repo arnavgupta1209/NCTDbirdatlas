@@ -28,6 +28,7 @@ const BirdCount = (function () {
                 </li> \
                 <%if (locationAvailable){%><li><label><input type="checkbox" class="locationChkBox"/> Show Location</label></li><%}%> \
                 <li><label><input type="checkbox" class="clusterChkBox"/> Show Clusters</label></li> \
+                <li>Legend</li> \
               </ul> \
             </div>'),
 

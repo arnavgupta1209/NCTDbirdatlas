@@ -174,7 +174,7 @@ const BirdCount = (function () {
             this.map = this._createMap(rows);
             const kmlLayer = new google.maps.KmlLayer({
                 url: 'https://drive.google.com/uc?id=10TGIA_S319zLSus8q6a1HIDx2AcPePJg', // Replace with the public URL of your KML file
-                map: map,
+                map: this.map,
             });
             kmlLayer.addListener('status_changed', () => {
                 if (kmlLayer.getStatus() !== google.maps.KmlLayerStatus.OK) {

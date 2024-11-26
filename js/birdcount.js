@@ -28,7 +28,13 @@ const BirdCount = (function () {
                 </li> \
                 <%if (locationAvailable){%><li><label><input type="checkbox" class="locationChkBox"/> Show Location</label></li><%}%> \
                 <li><label><input type="checkbox" class="clusterChkBox"/> Show Clusters</label></li> \
-                <li>Legend</li> \
+                <li>Legend:</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: green; margin-right: 10px;"></span>No Lists</li> \
+                <li>1 List</li> \
+                <li>2 Lists</li> \
+                <li>3 Lists</li> \
+                <li>4 Lists</li> \
+                <li>Reviewed</li> \
               </ul> \
             </div>'),
 

@@ -172,6 +172,15 @@ const BirdCount = (function () {
 
         processCoordinates: function (rows) {
             this.map = this._createMap(rows);
+            const kmlLayer = new google.maps.KmlLayer({
+                url: 'https://drive.google.com/uc?id=10TGIA_S319zLSus8q6a1HIDx2AcPePJg', // Replace with the public URL of your KML file
+                map: map,
+            });
+            kmlLayer.addListener('status_changed', () => {
+                if (kmlLayer.getStatus() !== google.maps.KmlLayerStatus.OK) {
+                    console.error("Error loading KML file:", kmlLayer.getStatus());
+                }
+            });
             this.rectangleInfos = this._createRectangleInfo(rows);
             google.maps.event.addListenerOnce(this.map, 'idle', _.bind(function () {
                 $('#' + this.options.mapContainerId).removeClass("spinner");

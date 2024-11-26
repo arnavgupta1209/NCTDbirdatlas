@@ -29,12 +29,12 @@ const BirdCount = (function () {
                 <%if (locationAvailable){%><li><label><input type="checkbox" class="locationChkBox"/> Show Location</label></li><%}%> \
                 <li><label><input type="checkbox" class="clusterChkBox"/> Show Clusters</label></li> \
                 <li>Legend:</li> \
-                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: green; margin-right: 10px;"></span>No Lists</li> \
-                <li>1 List</li> \
-                <li>2 Lists</li> \
-                <li>3 Lists</li> \
-                <li>4 Lists</li> \
-                <li>Reviewed</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #FF8040; margin-right: 10px;"></span>No Lists</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #d9d9d9; margin-right: 10px;"></span>1 List</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #295BA7; margin-right: 10px;"></span>2 Lists</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #FCC314; margin-right: 10px;"></span>3 Lists</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #03C988; margin-right: 10px;"></span>4 Lists</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #ba33ff; margin-right: 10px;"></span>Reviewed</li> \
               </ul> \
             </div>'),
 

@@ -356,7 +356,7 @@ const BirdCount = (function () {
         },
 
         _showHideLabels: function () {
-            const showLabel = this.map.getZoom() > 12;
+            const showLabel = this.map.getZoom() > 8;
             _(this.labels).each(function (label) {
                 label.setMap(showLabel ? this.map : null);
             }, this);

@@ -7,7 +7,7 @@ const BirdCount = (function () {
         CELL_PATTERN = /([A-Z]+)(\d+)/,
         REVIEWED_PATTERN = ['yes', 'y', 'reviewed'],
         infoBoxTemplate = _.template('<span><b>Cluster: <%=clusterName%></b></span>' +
-            '<%if (site && !_.isEmpty(site.trim())){%><br/><b>Site</b>: <%=site%><%}%>' +
+            '<%if (site && !_.isEmpty(site.trim())){%><br/><b>Subcell</b>: <%=site%><%}%>' +
             '<%if (owner && !_.isEmpty(owner.trim())){%><br/><b>Owner</b>: <%=owner%><%}%>' +
             '<%if (!_.isEmpty(listUrl["1"])){%><br/><a target="_blank" href="<%=listUrl["1"]%>">List1</a><%}%>' +
             '<%if (!_.isEmpty(listUrl["2"])){%> <a target="_blank" href="<%=listUrl["2"]%>">List2</a><%}%>' +

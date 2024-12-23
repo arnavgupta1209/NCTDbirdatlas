@@ -230,7 +230,7 @@ const BirdCount = (function () {
                             map: this.map,
                             paths: this.convexHull(latLongs),
                             fillColor: "#FF0000",
-                            strokeWeight: 1,
+                            strokeWeight: 3,
                             fillOpacity: 0.10,
                             strokeColor: "#0000FF",
                             strokeOpacity: 0.25,

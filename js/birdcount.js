@@ -6,7 +6,7 @@ const BirdCount = (function () {
     const $ = jQuery, //wp noConflicts $. Capture $ in this scope
         CELL_PATTERN = /([A-Z]+)(\d+)/,
         REVIEWED_PATTERN = ['yes', 'y', 'reviewed'],
-        infoBoxTemplate = _.template('<span><b><%=clusterName%></b></span>' +
+        infoBoxTemplate = _.template('<span><b>Cluster: <%=clusterName%></b></span>' +
             '<%if (site && !_.isEmpty(site.trim())){%><br/><b>Site</b>: <%=site%><%}%>' +
             '<%if (owner && !_.isEmpty(owner.trim())){%><br/><b>Owner</b>: <%=owner%><%}%>' +
             '<%if (!_.isEmpty(listUrl["1"])){%><br/><a target="_blank" href="<%=listUrl["1"]%>">List1</a><%}%>' +

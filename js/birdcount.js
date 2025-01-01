@@ -30,7 +30,7 @@ const BirdCount = (function () {
                 <li><label><input type="checkbox" class="clusterChkBox"/> Show Clusters</label></li> \
                 <li>Legend:</li> \
                 <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #FF8040; margin-right: 10px;"></span>No Lists</li> \
-                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #d9d9d9; margin-right: 10px;"></span>1 List</li> \
+                <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #f50c0c; margin-right: 10px;"></span>1 List</li> \
                 <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #295BA7; margin-right: 10px;"></span>2 Lists</li> \
                 <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #FCC314; margin-right: 10px;"></span>3 Lists</li> \
                 <li><span style="display: inline-block; width: 20px; height: 20px; background-color: #03C988; margin-right: 10px;"></span>4 Lists</li> \
